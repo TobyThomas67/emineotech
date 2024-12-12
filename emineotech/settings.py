@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-o=at__)ggiu7u5bz3h)b)87oljy3-uc+e+q5dr0-md!!fhjari'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['emineotech.glitch.me','localhost']
 
 
 # Application definition
@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     
     
 ]
+STATIC_ROOT = '/stat
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
