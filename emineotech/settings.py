@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-o=at__)ggiu7u5bz3h)b)87oljy3-uc+e+q5dr0-md!!fhjari
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['emineotech.glitch.me','localhost']
+ALLOWED_HOSTS = ['emineotech.pythonanywhere.com']
 
 
 # Application definition
@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     
     
 ]
-STATIC_ROOT = '/stat
+STATIC_ROOT = '/static'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
